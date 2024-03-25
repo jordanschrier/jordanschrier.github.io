@@ -1,0 +1,47 @@
+h1 {
+    font-family: "gimlet-sans-variable", sans-serif;
+}
+
+#home-container {
+    margin-top: 100px;
+    font-size: 10px;
+    text-align: center;
+
+}
+
+#highlights-container {
+    font-size: 2em;
+}
+
+.header-container {
+    margin-top: 220px;
+
+}
+
+.variable-header {
+    font-size: 15vw;
+    font-variation-settings: "slnt" 0, "wght" 550, "opsz" 20;
+    transition: font-variation-settings 0.8s ease;
+    text-align: center;
+}
+
+.variable-header:hover {
+    font-variation-settings: "slnt" 0, "wght" 300, "opsz" 0;
+}
+
+.work-highlight {
+    font-family: "gimlet-sans-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 300, "opsz" 0;
+    transition: font-variation-settings 0.5s ease-in-out;
+}
+
+.work-highlight:hover {
+    font-variation-settings: "slnt" -10, "wght" 300, "opsz" 0;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
