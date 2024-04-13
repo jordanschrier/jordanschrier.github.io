@@ -3,14 +3,15 @@ h1 {
 }
 
 #nav-container {
-    top: 5vh;
     font-size: 8px;
-    margin-left: 5vw;
-    margin-bottom: 2vh;
+    display: flex;
+    margin-left: 10vw;
 }
 
 .header-container {
+    margin-top: 5vh;
     margin-left: 5vw;
+    display: flex;
 }
 
 .variable-header {
@@ -23,14 +24,15 @@ h1 {
     font-variation-settings: "slnt" 0, "wght" 300, "opsz" 0;
 }
 
-.work-highlight {
+.nav-link {
     font-family: "area-normal", sans-serif;
     font-weight: 400;
     transition: color 0.5s ease-in-out;
     color: black;
+    margin-right: 5vw;
 }
 
-.work-highlight:hover {
+.nav-link:hover {
     color: red;
 }
 
@@ -40,7 +42,7 @@ a {
 }
 
 .thumbnail-container {
-    display: block;
+    display: grid;
     margin-left: 5vw;
     margin-right: 10vh;
     font-size: 10pt;
@@ -48,15 +50,15 @@ a {
     height: 100vh;
 }
 
-.work-thumbnail {
-    max-width: 500px;
-    max-height: 300px;
+.home-thumbnail {
+    width: 20em;
+    height: 20em;
     margin: 2vh;
 }
 
-.work-thumbnail img {
+.home-thumbnail img {
     width: 100%;
-    height: 100%;
+    
     object-fit: cover;
 }
 
@@ -64,4 +66,34 @@ a {
     display: flex;
     flex-wrap: wrap;
     margin-top: 5vh;
+}
+
+#main_header {
+    width: 15em;
+    display: block;
+}
+
+#mini_header {
+    height: 5em;
+    display: none;
+}
+
+footer {
+    font-family: "area-normal", sans-serif;
+    font-weight: 400;
+    font-size: 10pt;
+}
+
+@media only screen and (max-width: 600px) {
+    #main_header {
+        display: none;
+    }
+
+    #mini_header {
+        display: block;
+    }
+
+    .thumbnail-container {
+        display: block;
+    }
 }
