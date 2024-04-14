@@ -9,6 +9,12 @@ h1 {
 
 .header-container {
     display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
 }
 
 .nav-link {
@@ -29,7 +35,7 @@ a {
 }
 
 .thumbnail-container {
-    margin-top: 10vh;
+    margin-top: 5vh;
     display: grid;
     grid-template-columns: auto auto;
     align-content: center;
@@ -45,7 +51,6 @@ a {
 #home-container {
     margin-left: 4vw;
     margin-right: 4vw;
-    margin-top: 20px;
 }
 
 #main_header {
