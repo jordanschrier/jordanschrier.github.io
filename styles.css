@@ -48,6 +48,18 @@ a {
     object-fit: cover;
 }
 
+.work-container {
+    margin-top: 5vh;
+    display: block;
+}
+
+.work-container img {
+    height: 70vw;
+    width: 88vw;
+    object-fit: cover;
+    margin-top: 4vh;
+}
+
 #home-container {
     margin-left: 4vw;
     margin-right: 4vw;
