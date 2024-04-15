@@ -37,13 +37,13 @@ a {
 .thumbnail-container {
     margin-top: 5vh;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     align-content: center;
 }
 
 .thumbnail-container img {
-    height: 32vw;
-    width: 43vw;
+    height: 23vw;
+    width: 28vw;
     margin-bottom: 2vw;
     object-fit: cover;
 }
@@ -69,6 +69,15 @@ footer {
     font-size: 10pt;
     text-align: center;
     margin-bottom: 5vw;
+}
+
+#headshot {
+    margin-top: 5vw;
+}
+#headshot img{
+    width: 86vw;
+    height: 86vw;
+    object-fit: cover;
 }
 
 @media only screen and (max-width: 600px) {
