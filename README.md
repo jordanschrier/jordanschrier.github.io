@@ -1,3 +1,3 @@
-# jordan.github.io
+# jordanschrier.github.io
 
 Copyright &copy; 2024 Jordan Schrier
