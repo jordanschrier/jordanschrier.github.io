@@ -56,11 +56,12 @@ a {
 
 .work-container {
     margin-top: 5vh;
-    width: 100%;
+    width: 98%;
+    margin-right: 2vw;
 }
 
 .work-description {
-    width: 100%;
+    width: 90%;
     margin-top: 10vh;
     display: block;
     font-family: "area-normal", sans-serif;
@@ -69,7 +70,7 @@ a {
 }
 
 .work-container img {
-    width: 60vw;
+    width: 100%;
     object-fit: cover;
     margin-top: 4vh;
 }
@@ -110,6 +111,10 @@ footer {
     object-fit: cover;
 }
 
+#wicked-animation {
+    background-color: #efca9d;
+}
+
 /* Two column layout for work + description for larger screen size only */
 @media only screen and (max-width: 900px) {
     #page-container {
@@ -144,7 +149,6 @@ footer {
     .thumbnail-container img{
         width: 100%;
         height: 65vw;
-        margin: 0;
         margin-bottom: 2vw;
     } 
 
@@ -152,7 +156,7 @@ footer {
         font-size: 10px;
     }
 
-    #home-container {
+    #work-container {
         margin-right: 2vw;
     }
 }
