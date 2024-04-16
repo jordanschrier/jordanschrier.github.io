@@ -43,7 +43,6 @@ a {
 .thumbnail-container img {
     height: 23vw;
     width: 95%;
-    margin-left: 1vw;
     margin-right: 1vw;
     margin-bottom: 1vw;
     object-fit: cover;
@@ -76,8 +75,7 @@ a {
 }
 
 #home-container {
-    margin-left: 4vw;
-    margin-right: 4vw;
+    margin-left: 2vw;
 }
 
 #page-container {
@@ -152,6 +150,10 @@ footer {
 
     #nav-container {
         font-size: 10px;
+    }
+
+    #home-container {
+        margin-right: 2vw;
     }
 }
 
