@@ -46,12 +46,11 @@ a {
     margin-right: 1vw;
     margin-bottom: 1vw;
     object-fit: cover;
-    opacity: 100%;
-    transition: opacity 0.2s ease-in-out;
+    transition: border-radius 0.2s ease-in-out;
 }
 
 .thumbnail-container img:hover {
-    opacity: 50%;
+    border-radius: 4em;
 }
 
 .work-container {
@@ -144,13 +143,14 @@ footer {
 
     .thumbnail-container {
         display: block;
+        margin-right: 2vw;
     }
 
     .thumbnail-container img{
         width: 100%;
         height: 65vw;
         margin-bottom: 2vw;
-    } 
+    }
 
     #nav-container {
         font-size: 10px;
