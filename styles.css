@@ -61,7 +61,7 @@ a {
 }
 
 .work-description {
-    width: 25vw;
+    width: 100%;
     margin-top: 10vh;
     display: block;
     font-family: "area-normal", sans-serif;
@@ -70,8 +70,7 @@ a {
 }
 
 .work-container img {
-    height: 50vw;
-    width: 100%;
+    width: 60vw;
     object-fit: cover;
     margin-top: 4vh;
 }
@@ -82,10 +81,8 @@ a {
 }
 
 #page-container {
-    margin-right: 4vw;
     display: grid;
     grid-template-columns: auto auto;
-    flex-wrap: wrap-reverse;
 }
 
 #main_header {
@@ -122,13 +119,13 @@ footer {
     }
 
     .work-container img {
-        width: 86vw;
+        width: 100%;
         height: 65vw;
     }
 
     .work-description {
         order: -1;
-        width: 86vw;
+        width: 100%;
     }
 }
 
