@@ -50,7 +50,7 @@ a {
 }
 
 .thumbnail-container img:hover {
-    border-radius: 4em;
+    border-radius: 3em;
 }
 
 .work-container {
@@ -158,6 +158,10 @@ footer {
 
     #work-container {
         margin-right: 2vw;
+    }
+
+    .thumbnail-container img:hover {
+        border-radius: 4em;
     }
 }
 
