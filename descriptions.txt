@@ -1,10 +1,12 @@
-<p>Bethlehem is most recognized for its history, which is emphasized by the presence of the industrial Steelstacks skyline. With a diverse population and growing arts scene, the experiences of the city contrast with this image.</p>
+<p>I'm a designer and developer, intrigued by modern innovations for interactivity and engagement. With a background in marketing, web development, and user experience, I'm always trying new tools to make creative projects stand out. Recently, that included augmented reality, 3D modeling/rendering, and generative AI.</p>
+-
+<p>Party wine doesn't need to be boxed. Wicked is a lifestyle, </p>
+-
+<p>The Alumni Networking Event is hosted annually by Lehigh F1RST, the university's first-generation club. For students whose parents did not attend college, the event offers a unique opportunity for first-gen students to connect with alumni of similar backgrounds over a catered dinner in business attire.</p>
 
-<p>bthlhm is a bold, vibrant rebranding of the city that aims to represent its modern population and visitors...</p>
--
-<p>Lorem ipsum...</p>
--
-<p>Lorem ipsum...</p>
+<p>Areas of consideration for these marketing materials included the student-facing social media, alumni-facing outreach emails, and the physical materials for the event. Employing the preexisting club branding, I ensured all mediums were cohesive and corresponded with planned event decor such as balloons and tablecloths. I additionally established proper print guidelines for the brochures, which I personally designed, printed, and trimmed.</p>
+
+<p>Aesthetically, I aimed to present the event as professional, elegant, and vibrant. This was fulfilling and exciting for me, and what the first-generation students and alumni of Lehigh deserve to experience!</p>
 -
 <p>Lorem ipsum...</p>
 -
