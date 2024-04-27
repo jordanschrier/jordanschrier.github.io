@@ -93,12 +93,22 @@ a {
     height: 5em;
     display: block;
     float: left;
+    transition: filter 0.3s ease-in-out;
+}
+
+#main_header:hover {
+    filter: invert(95%) sepia(10%) saturate(865%) hue-rotate(18deg) brightness(88%) contrast(102%);
 }
 
 #mini_header {
     height: 5em;
     display: none;
     float: left;
+    transition: filter 0.3s ease-in-out;
+}
+
+#mini_header:hover {
+    filter: invert(95%) sepia(10%) saturate(865%) hue-rotate(18deg) brightness(88%) contrast(102%);
 }
 
 footer {
@@ -107,6 +117,7 @@ footer {
     font-size: 10pt;
     text-align: center;
     margin-bottom: 5vw;
+    margin-top: 5vw;
 }
 
 #headshot {
