@@ -151,6 +151,27 @@ footer {
     max-width: 200px;
 }
 
+.nav-footer {
+    font-family: "area-normal", sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    margin-bottom: 4vw;
+    margin-top: 4vw;
+    margin-right: 2vw;
+}
+
+.nav-footer > .next, .last {
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-footer > .next {
+    float: right;
+}
+
+.nav-footer > .next:hover, .last:hover {
+    color: #d4dea6;
+}
+
 /* Two column layout for work + description for larger screen size only */
 @media only screen and (max-width: 700px) {
     #page-container {
