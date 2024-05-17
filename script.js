@@ -28,3 +28,30 @@ function load_descriptions(){
     });
 }
 load_descriptions();
+
+document.addEventListener("DOMContentLoaded", function() {
+    //get the images and the current modal box
+    const images = document.querySelectorAll(".work-image");
+    const modal = document.querySelector(".image-display");
+    const close = document.querySelector(".close");
+
+    images.forEach(image => {
+        image.addEventListener("click", function() {
+            const current = document.createElement("img"); //make new image from clicked image
+            current.src = this.src;
+            modal.innerHTML = ""; //clear previous content
+            modal.appendChild(current); //add image into modal
+            modal.appendChild(close); //add close button
+            modal.style.display = "flex"; //display modal box
+        });
+    });
+
+    modal.addEventListener("click", function() {
+        modal.style.display = "none"; //hide modal box when clicked
+    });
+
+    close.addEventListener("click", function() {
+        modal.style.display = "none"; //hide modal box when x is clicked
+    });
+});
+
