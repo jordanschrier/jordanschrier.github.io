@@ -24,24 +24,19 @@ h1 {
 .nav-link {
     font-family: "gimlet-sans-variable", sans-serif;
     font-size: 15pt;
-    font-variation-settings: "slnt" 0, "wght" 100, "opsz" 50;
-    transition: font-variation-settings 0.5s ease-in-out;
+    font-variation-settings: "slnt" 0, "wght" 100, "opsz" 30;
+    transition: font-variation-settings 0.2s ease-in-out;
     color: black;
     margin-right: 4vw;
 }
 
 .nav-link:hover {
-    font-variation-settings: "slnt" 0, "wght" 500, "opsz" 30;
+    font-variation-settings: "slnt" 0, "wght" 500, "opsz" 20;
 }
 
 a {
     text-decoration: none;
     color: inherit;
-}
-
-#headshot {
-    width: 40vw;
-    margin-top: 8vh;
 }
 
 .thumbnail-container {
@@ -173,6 +168,16 @@ footer {
     color: #d4dea6;
 }
 
+#headshot {
+    margin-top: 0;
+    width: 40vw;
+}
+
+#headshot img{
+    height: auto;
+    object-fit: cover;
+}
+
 /* modal that pops up when an image is clicked */
 .image-display {
     display: none;
@@ -252,8 +257,8 @@ footer {
         margin-bottom: 2vw;
     }
 
-    #nav-container {
-        font-size: 12px;
+    .nav-link {
+        font-size: 12pt;
     }
 
     #work-container {
@@ -281,6 +286,12 @@ footer {
     #ad-mockup {
         height: 400px;
     }
+
+    #headshot {
+        width: 70vw;
+        height: auto;
+        object-fit: cover;
+    }
 }
 
 /* about page */
@@ -300,12 +311,12 @@ footer {
     margin-top: 3vh;
     font-family: "gimlet-sans-variable", sans-serif;
     font-size: 15pt;
-    font-variation-settings: "slnt" 0, "wght" 500, "opsz" 20;
+    font-variation-settings: "slnt" 0, "wght" 450, "opsz" 20;
     transition: font-variation-settings 0.8s ease;
 }
 
 .about-links:hover {
-    font-variation-settings: "slnt" 0, "wght" 200, "opsz" 0;
+    font-variation-settings: "slnt" 0, "wght" 100, "opsz" 0;
     cursor: pointer;
 }
 
@@ -338,12 +349,57 @@ footer {
     margin-bottom: 2vw;
 }
 
-#headshot {
-    margin-top: 0;
+#fs-frm {
+    display: none;
 }
 
-#headshot img{
-    width: 75vw;
-    height: auto;
-    object-fit: cover;
+input, textarea {
+    font-family: "area-normal", sans-serif;
+    width: 100%;
+    margin-bottom: 2vh;
+    border-width: 1px;
+    border-radius: 2px;
+}
+
+input:focus, textarea:focus {
+    border-style: solid;
+    outline: 1px solid #d4dea6;
+    border-color: #d4dea6;
+    border-radius: 6px;
+    border-width: 1px;
+    box-sizing: border-box;
+}
+
+label {
+    font-family: "area-normal", sans-serif;
+    font-size: 10pt;
+}
+
+fieldset {
+    width: 90%;
+    border-width: 0;
+    margin: 0;
+    margin-top: 2vh;
+    padding: 0;
+}
+
+form {
+    margin-left: 2vw;
+}
+
+#submit {
+    width: 20vw;
+    border-radius: 10px;
+    border-width: 0;
+    padding: 4px;
+    transition: background-color 0.3s ease;
+}
+
+#submit:hover {
+    background-color: #d4dea6;
+    cursor: pointer;
+}
+
+#contact {
+
 }

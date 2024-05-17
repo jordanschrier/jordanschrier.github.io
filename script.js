@@ -30,6 +30,11 @@ function load_descriptions(){
 load_descriptions();
 
 document.addEventListener("DOMContentLoaded", function() {
+
+    //trigger modal box when image is clicked
+
+    var path = window.location.pathname;
+    if (path !== "/about.html") {
     //get the images and the current modal box
     const images = document.querySelectorAll(".work-image");
     const modal = document.querySelector(".image-display");
@@ -53,5 +58,25 @@ document.addEventListener("DOMContentLoaded", function() {
     close.addEventListener("click", function() {
         modal.style.display = "none"; //hide modal box when x is clicked
     });
+}
+
+    //display contact form
+
+    //check that we're on about page
+    if (path === "/about.html" || path === "/") {
+        let visible = false;
+        const contact = document.getElementById("contact");
+        const box = document.getElementById("fs-frm");
+
+        contact.addEventListener("click", function() {
+            if(visible){
+                box.style.display = "none";
+                visible = false;
+            }else{
+                box.style.display = "block";
+                visible = true;
+            }
+        });
+    }
 });
 
