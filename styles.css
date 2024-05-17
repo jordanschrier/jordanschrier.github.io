@@ -394,6 +394,7 @@ form {
     padding: 4px;
     transition: background-color 0.3s ease;
     background-color:rgb(235, 235, 235);
+    color: black;
 }
 
 #submit:hover {
