@@ -393,13 +393,10 @@ form {
     border-width: 0;
     padding: 4px;
     transition: background-color 0.3s ease;
+    background-color:rgb(235, 235, 235);
 }
 
 #submit:hover {
     background-color: #d4dea6;
     cursor: pointer;
-}
-
-#contact {
-
 }
