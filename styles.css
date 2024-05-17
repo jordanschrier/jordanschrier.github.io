@@ -22,15 +22,16 @@ h1 {
 }
 
 .nav-link {
-    font-family: "area-normal", sans-serif;
-    font-weight: 400;
-    transition: color 0.3s ease-in-out;
+    font-family: "gimlet-sans-variable", sans-serif;
+    font-size: 15pt;
+    font-variation-settings: "slnt" 0, "wght" 100, "opsz" 50;
+    transition: font-variation-settings 0.5s ease-in-out;
     color: black;
     margin-right: 4vw;
 }
 
 .nav-link:hover {
-    color: #d4dea6;
+    font-variation-settings: "slnt" 0, "wght" 500, "opsz" 30;
 }
 
 a {
@@ -40,6 +41,7 @@ a {
 
 #headshot {
     width: 40vw;
+    margin-top: 8vh;
 }
 
 .thumbnail-container {
@@ -140,15 +142,6 @@ footer {
     text-align: center;
     margin-bottom: 5vw;
     margin-top: 5vw;
-}
-
-#headshot {
-    margin-top: 5vw;
-}
-#headshot img{
-    width: 86vw;
-    height: 86vw;
-    object-fit: cover;
 }
 
 #wicked-animation {
@@ -276,6 +269,10 @@ footer {
         grid-template-columns: auto !important;
     }
 
+    .about-row {
+        grid-template-columns: auto !important;
+    }
+
     .grid-row img {
         width: 100% !important;
         height: auto !important;
@@ -286,13 +283,67 @@ footer {
     }
 }
 
-/* Not using for now */
-.variable-header {
-    font-size: 30pt;
-    font-variation-settings: "slnt" 0, "wght" 550, "opsz" 20;
+/* about page */
+
+#hi {
+    font-family: "gimlet-sans-variable", sans-serif;
+    font-size: 20pt;
+    font-variation-settings: "slnt" 0, "wght" 500, "opsz" 20;
     transition: font-variation-settings 0.8s ease;
 }
 
-.variable-header:hover {
-    font-variation-settings: "slnt" 0, "wght" 300, "opsz" 0;
+#hi:hover {
+    font-variation-settings: "slnt" 0, "wght" 200, "opsz" 0;
+}
+
+.about-links {
+    margin-top: 3vh;
+    font-family: "gimlet-sans-variable", sans-serif;
+    font-size: 15pt;
+    font-variation-settings: "slnt" 0, "wght" 500, "opsz" 20;
+    transition: font-variation-settings 0.8s ease;
+}
+
+.about-links:hover {
+    font-variation-settings: "slnt" 0, "wght" 200, "opsz" 0;
+    cursor: pointer;
+}
+
+#repo-link { 
+    font-family: "gimlet-sans-variable", sans-serif;
+    font-size: 10pt;
+    font-variation-settings: "slnt" 0, "wght" 500, "opsz" 20;
+    transition: font-variation-settings 0.8s ease;
+}
+
+#repo-link:hover {
+    font-variation-settings: "slnt" 0, "wght" 200, "opsz" 0;
+}
+
+#about-text {
+    width: 100%;
+    margin-bottom: 4vh;
+    margin-right: 3vw;
+    display: block;
+    font-family: "area-normal", sans-serif;
+    font-weight: 300;
+    font-size: 9pt;
+}
+
+.about-row {
+    margin-top: 6vh;
+    margin-right: 2vw;
+    display: grid;
+    gap: 2vw;
+    margin-bottom: 2vw;
+}
+
+#headshot {
+    margin-top: 0;
+}
+
+#headshot img{
+    width: 75vw;
+    height: auto;
+    object-fit: cover;
 }
