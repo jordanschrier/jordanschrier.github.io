@@ -12,14 +12,23 @@
     </head>
     <body>
         <div id="home-container">
-        <div class="header-container">
-            <a href="index.html"><img id="main_header" src="images/Logos/main_logo.svg"></a>
-            <a href="index.html"><img id="mini_header" src="images/Logos/mini_logo.svg"></a>
-            <div id="nav-container">
-                <a class="nav-link" href="about.html">about</a>
-                <a class="nav-link" href="index.html">work</a>
+            <div id="header-container">
+                <a id="logo" href="index.html"></a>
+                <script>
+                    document.addEventListener("DOMContentLoaded", function() {
+                        fetch('header.html')
+                            .then(response => response.text())
+                            .then(data => {
+                                document.getElementById('logo').innerHTML = data;
+                            });
+                    });
+                </script>
+                <a href="index.html"><img id="mini_header"src="images/Logos/mini_logo.svg"></a>
+                <div id="nav-container">
+                    <a class="nav-link" href="about.html">about</a>
+                    <a class="nav-link" href="index.html">work</a>
+                </div>
             </div>
-        </div>
         <div class="thumbnail-container">
             <a href="clippies.html">
                 <img id="" src="images/clippies/Clippies-thumbnail.jpg">
