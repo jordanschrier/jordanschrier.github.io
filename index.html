@@ -6,46 +6,59 @@
         <title>Jordan Schrier</title>
         <link rel="stylesheet" href="styles.css"/>
         <link rel="stylesheet" href="https://use.typekit.net/mdc4ufz.css">
+        <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 
         <link rel="icon" href="images/favicon.ico" sizes="any">
         <link rel="icon" href="images/icon.svg" type="image/svg+xml">
     </head>
     <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <div id="header-container">  
+          <script>
+              document.addEventListener("DOMContentLoaded", function() {
+                fetch('header.html')
+                  .then(response => response.text())
+                  .then(data => {
+                      document.getElementById('header-container').innerHTML = data;
+                  });
+              });
+          </script>
+      </div>
         <div id="home-container">
-            <div id="header-container">
-                <a id="logo" href="index.html"></a>
-                <script>
-                    document.addEventListener("DOMContentLoaded", function() {
-                        fetch('header.html')
-                            .then(response => response.text())
-                            .then(data => {
-                                document.getElementById('logo').innerHTML = data;
-                            });
-                    });
-                </script>
-                <a href="index.html"><img id="mini_header"src="images/Logos/mini_logo.svg"></a>
-                <div id="nav-container">
-                    <a class="nav-link" href="about.html">about</a>
-                    <a class="nav-link" href="index.html">work</a>
+            <div class="container mt-xxl">
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <a href="clippies.html">
+                      <div class="ratio ratio-4x3">
+                        <img src="images/clippies/Clippies-thumbnail.jpg" class="img-fluid" alt="Clippies Thumbnail">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <a href="prosaic.html">
+                      <div class="ratio ratio-4x3">
+                        <img src="images/prosaic/Prosaic.jpg" class="img-fluid" alt="Prosaic">
+                      </div>
+                    </a>
+                  </div>
                 </div>
-            </div>
-        <div class="thumbnail-container">
-            <a href="clippies.html">
-                <img id="" src="images/clippies/Clippies-thumbnail.jpg">
-            </a>
-            <a href="prosaic.html">
-                <img id="prosaic-thumbnail" src="images/prosaic/Prosaic.jpg">
-            </a>
-            <a href="alumni-networking-event.html">
-                <img id="brochure-thumbnail" src="images/ANE/ANE_Brochure.jpg">
-            </a>
-            <a href="illustration.html">
-                <img id="illustration-thumbnail" src="images/Illustration/Vanitas.jpg">
-            </a>
-            <a href="wicked.html">
-                <img id="bthlhm-thumbnail" src="images/Wicked/Logo.png">
-            </a>
-        </div>
+                <div class="row mb-4">
+                  <div class="col-md-6 mb-4">
+                    <a href="alumni-networking-event.html">
+                        <div class="ratio ratio-4x3">
+                          <img src="images/ANE/ANE_Brochure.jpg" class="img-fluid" alt="Alumni Networking Event Thumbnail">
+                        </div>
+                      </a>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <a href="wicked.html">
+                        <div class="ratio ratio-4x3">
+                          <img src="images/Wicked/Logo.png" class="img-fluid" alt="Wicked Thumbnail">
+                        </div>
+                      </a>
+                  </div>
+                </div>
+                
         <footer>
             Copyright &copy; 2024 Jordan Schrier
         </footer>

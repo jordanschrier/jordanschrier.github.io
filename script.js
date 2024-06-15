@@ -5,6 +5,7 @@
     to minimize the number of files, so this solution uses just one text
     file and one script file.
 */
+
 let description_list = [];
 let desc_ids = ["bio", "wicked_desc", "ANE_desc", "clippies_desc", "prosaic_desc"];
 let current_desc = "";
