@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
     //trigger modal box when image is clicked
 
     var path = window.location.pathname;
-    if (path !== "/about.html") {
+    if (path !== "/about.html" && path !== "/index.html") {
     //get the images and the current modal box
     const images = document.querySelectorAll(".work-image");
     const modal = document.querySelector(".image-display");

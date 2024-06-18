@@ -1,9 +1,38 @@
-.img-fluid {
-    object-fit: cover;
+/* Home page hover effect */
+
+.thumbnail {
+    overflow: hidden;
+    border-radius: 0;
+    transition: border-radius 0.3s ease-in-out;
+}
+
+.thumbnail img.overlay {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.thumbnail:hover {
+    border-radius: 10%;
+}
+
+.thumbnail:hover img.overlay {
+    opacity: 1;
+}
+
+.thumbnail img.home {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.thumbnail:hover img.home {
+    opacity: 1;
 }
 
 h1 {
     font-family: "gimlet-sans-variable", sans-serif;
+}
+
+.img-fluid {
+    object-fit: cover;
 }
 
 #nav-container {
