@@ -51,14 +51,11 @@ h1, h2, h3 {
 .nav-item {
     font-family: "gimlet-sans-variable", sans-serif;
     font-size: 15pt;
-    font-variation-settings: "slnt" 0, "wght" 100, "opsz" 30;
-    transition: font-variation-settings 0.2s ease-in-out;
     color: black;
-    margin-right: 4vw;
 }
 
-.nav-item:hover {
-    font-variation-settings: "slnt" 0, "wght" 500, "opsz" 20;
+.nav-item:not(.github){
+    margin-right: 4vw;
 }
 
 a {
@@ -135,23 +132,15 @@ a {
 
 #header {
     display: block;
-    bottom: 5px;
     top: 0;
-}
-
-#bootstrap-header {
-    padding: 50px;
-}
-
-.navbar-nav {
-    padding-top: 3vh;
-    padding-bottom: 0;
 }
 
 #mini_header {
     height: 4em;
     display: none;
     transition: filter 0.3s ease-in-out;
+    position: absolute;
+    top: 50px;
 }
 
 #mini_header:hover {
@@ -442,7 +431,7 @@ form {
     font-size: 50px;
     font-variation-settings: "slnt" 0, "wght" 650, "opsz" 36;
     line-height: 0.83;
-    transition: line-height 0.8s ease, font-variation-settings 0.8s ease, letter-spacing 0.8s ease;
+    transition: line-height 0.2s ease, font-variation-settings 0.5s ease, letter-spacing 0.2s ease;
 }
 
 #header:hover{
@@ -482,17 +471,34 @@ form {
 
 .navbar-nav .nav-link:not(.icon-box) {
     font-variation-settings: "slnt" 0, "wght" 400, "opsz" 0;
-    transition: font-variation-settings 0.8s ease;
+    transition: font-variation-settings 0.2s ease;
 }
 
 .navbar-nav .nav-link:not(.icon-box):hover {
-    font-variation-settings: "slnt" 0, "wght" 600, "opsz" 0;
+    font-variation-settings: "slnt" 0, "wght" 500, "opsz" 0;
 }
 
 .icon-box {
-    transition: filter 0.3s ease-in-out !important;
+    transition: filter 0.2s ease-in-out !important;
 }
 
 .icon-box:hover {
     filter: invert(95%) sepia(10%) saturate(865%) hue-rotate(18deg) brightness(88%) contrast(102%);
+}
+
+#bootstrap-header {
+    padding: 50px;
+}
+
+#header{
+    position: absolute;
+    top: 1em;
+}
+
+.navbar-toggler {
+    margin-top: 30px;
+}
+
+.navbar-collapse {
+    margin-top: 30px;
 }
