@@ -232,6 +232,10 @@ footer {
     color: #d4dea6;
 }
 
+#bootstrap-header {
+    padding: 50px;
+}
+
 /* Mobile breakpoint */
 @media only screen and (max-width: 768px) {
     #page-container {
@@ -305,6 +309,11 @@ footer {
         width: 100%;
         height: auto;
         object-fit: cover;
+    }
+
+    #bootstrap-header {
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 
@@ -481,10 +490,6 @@ form {
 
 .icon-box:hover {
     filter: invert(95%) sepia(10%) saturate(865%) hue-rotate(18deg) brightness(88%) contrast(102%);
-}
-
-#bootstrap-header {
-    padding: 50px;
 }
 
 #header{
