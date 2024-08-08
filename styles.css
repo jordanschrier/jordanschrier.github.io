@@ -232,8 +232,8 @@ footer {
     color: #d4dea6;
 }
 
-/* Two column layout for work + description for larger screen size only */
-@media only screen and (max-width: 700px) {
+/* Mobile breakpoint */
+@media only screen and (max-width: 768px) {
     #page-container {
         grid-template-columns: auto;
     }
@@ -247,10 +247,7 @@ footer {
         width: 98%;
         margin-left: 0;
     }
-}
 
-/* Mobile */
-@media only screen and (max-width: 768px) {
     #header-container{
         height: 4em;
     }
