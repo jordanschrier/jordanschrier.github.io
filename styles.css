@@ -122,7 +122,7 @@ a {
 }
 
 #home-container {
-    margin-top: 30vh;
+    margin-top: 250px;
 }
 
 #page-container {
@@ -238,6 +238,10 @@ footer {
 
 /* Mobile breakpoint */
 @media only screen and (max-width: 768px) {
+    .about {
+        flex-direction: column-reverse;
+    }
+
     #page-container {
         grid-template-columns: auto;
     }
@@ -319,11 +323,8 @@ footer {
 
 /* about page */
 
-#hi {
-    font-family: "gimlet-sans-variable", sans-serif;
-    font-size: 20pt;
-    font-variation-settings: "slnt" 0, "wght" 500, "opsz" 20;
-    transition: font-variation-settings 0.8s ease;
+.hi {
+    margin-top: 20px;
 }
 
 #hi:hover {
@@ -372,10 +373,6 @@ footer {
     margin-bottom: 2vw;
 }
 
-#fs-frm {
-    display: none;
-}
-
 input, textarea {
     font-family: "area-normal", sans-serif;
     width: 100%;
@@ -396,6 +393,8 @@ input:focus, textarea:focus {
 label {
     font-family: "area-normal", sans-serif;
     font-size: 10pt;
+    margin-top: 10px;
+    margin-bottom: 3px;
 }
 
 fieldset {
@@ -418,6 +417,7 @@ form {
     transition: background-color 0.3s ease;
     background-color:rgb(235, 235, 235);
     color: black;
+    margin-top: 10px;
 }
 
 #submit:hover {

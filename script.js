@@ -60,24 +60,5 @@ document.addEventListener("DOMContentLoaded", function() {
         modal.style.display = "none"; //hide modal box when x is clicked
     });
 }
-
-    //display contact form
-
-    //check that we're on about page
-    if (path === "/about.html" || path === "/") {
-        let visible = false;
-        const contact = document.getElementById("contact");
-        const box = document.getElementById("fs-frm");
-
-        contact.addEventListener("click", function() {
-            if(visible){
-                box.style.display = "none";
-                visible = false;
-            }else{
-                box.style.display = "block";
-                visible = true;
-            }
-        });
-    }
 });
 
