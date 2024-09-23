@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <title>Crochique</title>
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="https://use.typekit.net/mdc4ufz.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+        <link rel="icon" href="images/favicon.ico" sizes="any">
+        <link rel="icon" href="images/icon.svg" type="image/svg+xml">
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <div id="header-container"></div>
+        <div id="home-container">
+            <div class="container mt-xxl">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Crochique</h3>
+                        <div class="col mb-4 mt-4">
+                            <div>
+                                <img loading="lazy" src="https://res.cloudinary.com/dbcek1nhi/image/upload/v1727049834/Crochique_Mockup_n7mzqv.png" class="work-image img-fluid" alt="Greenway Gallery booklet styleguide">
+                            </div>
+                        </div>
+                        <p class="work-description">With the onset of the COVID-19 lockdown and rise in popularity of apps like
+                            TikTok, people were eager to learn and share new hobbies. According to 
+                            <a href="https://www.forbes.com/sites/loisaltermark/2020/03/27/knitting-has-become-the-cool-activity-during-the-coronavirus-crisis/">this Forbes article</a>
+                            , a particular knitting company saw a 75% sales increase each week during the pandemic.
+                        </p>
+                        <p class="work-description">While gaining popularity in a younger demographic, crochet e-commerce is old-fashioned, often requiring extensive research to begin the hobby
+                            despite the small number of required supplies. The go-to options are big craft store websites that can be overwhelming and confusing, expecting customers to know what
+                            they need, while standalone sites are specialized and expensive.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mb-4">
+                        <div>
+                            <img loading="lazy" src="https://res.cloudinary.com/dbcek1nhi/image/upload/v1727050688/Milana_persona_lnwpz2.png" class="work-image img-fluid" alt="Greenway Gallery booklet styleguide">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <p class="work-description">Through my research and personal experience starting crochet, I developed one primary user: a young hobbyist starting crochet with a specific
+                            project in mind and personal aesthetic. By delving into craft site crochet kits, I saw that their inclusions are numerous. This isn't well-suited for, say, a college
+                            student picking up a new hobby they aren't yet committed to.</p>
+                        <div class="col mb-4">
+                            <div>
+                                <img loading="lazy" src="https://res.cloudinary.com/dbcek1nhi/image/upload/v1727051181/Crochique_lowfidelity_yzf8dv.png" class="work-image img-fluid" alt="Greenway Gallery booklet styleguide">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="work-description">To approach this issue, I centered Crochique around customizable crochet kits, 
+                            broken down into three main components: a hook, yarn, and toolkit. The user can pick a pattern/color for
+                            each component to avoid feeling limited by the kit's simplicity and beginner-friendliness. If they feel
+                            confident in their skills or want to push their work further, users can also view individual products. 
+                            My biggest design goal was modularity, lowering the barrier of entry as much as possible.</p>
+                        <p class="work-description">With my biggest reference being crochet blogs, I knew Crochique needed to 
+                            feel friendly and community-based. I also studied the interfaces of Pinterest, Reddit, and 
+                            Instagram since some sort of feed/post interface would be integral to that feeling.</p>
+                        <p class="work-description">I started with an analogous scheme of five colors, reminiscent of feminine 
+                            crochet blogs, but bolder and modernized.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-4"></div>
+                        <div>
+                            <img loading="lazy" src="https://res.cloudinary.com/dbcek1nhi/image/upload/v1727051991/Crochique_Style_Tile_mboz4d.png" class="work-image img-fluid" alt="Cantilever render">
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 mt-4">
+                        <p class="work-description">As I refined the prototype and increased fidelity, I saw the need
+                            for an additional contrasting color to distinguish products more, and added a yellow. 
+                            Interestingly, ChatGPT is excellent at generating a suitable color to add to an existing 
+                            scheme when you provide it with hex codes.
+                        </p>
+                        <p class="work-description">As I moved into testing, the biggest usability conflicts were 
+                            confusion about page redirection and the “build a kit” interface. This was a big challenge, 
+                            as I had to communicate that the three kit components were all part of the same kit.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div style="padding:65% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1011413105?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Crochique Prototype"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 mt-4">
+                        <p class="work-description">To solve this, I utilized icons to communicate each component of the
+                            kit, as well as swipe interactions to physically move through the kit. I sourced my icons 
+                            from the Figma plugins Iconduck and Bootstrap Icons, in addition to Adobe Stock vectors.
+                        </p>
+                        <p class="work-description">Imagery was another big challenge, as free-use images of crochet 
+                            products are few and far between. I found <a href="https://grabcad.com/library/ergonomic-crochet-hook-1">
+                            this lovely 3D model of an ergonomic crochet hook</a>, 
+                            which allowed me to customize the hooks in Adobe Dimension with a metallic texture, lighting 
+                            environment, and various patterns. I followed the same process with a tin 3D model from Adobe 
+                            Stock. However, unable to find a suitable yarn 3D model, I uploaded the two previous images 
+                            into Adobe Firefly to match my style into a generative AI image. Through this, I discovered 
+                            that Firefly works best with an iterative approach: uploading a reference, using the best 
+                            image it generates as a reference, and so on until it creates something convincing.
+                        </p>
+                        <p class="work-description">For some of the kit/product thumbnails, I used Photoshop to insert
+                            the solid-color backgrounds then added grainy drop shadows. Not finding free images or models
+                            of a blocking board, I personally 3D modeled it, then uploaded it to Firefly as a reference 
+                            to match the lighting to my other images.
+                        </p>
+                        <p class="work-description">All “user content” photos are from Unsplash.</p>
+                        <p class="work-description">To tie everything together, I used <a href="https://www.noiseandgradient.com/?chaos=0.1&colors=%23ed625d-%2342b6c6-%23f79f88-%23b2dfe6-%2303232d&grain=0.1">
+                            Noise & Gradient</a> to make a trendy gradient background for the entire site.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+            <div class="image-display"><span class="close">&times;</span></div>
+        <footer>
+            Copyright &copy; 2024 Jordan Schrier
+        </footer>
+    </div>
+    </body>
+</html>
