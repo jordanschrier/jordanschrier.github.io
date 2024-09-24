@@ -1,6 +1,16 @@
 //only perform these functions when everything has loaded
 document.addEventListener("DOMContentLoaded", function() {
-
+    /**
+     * Loads the header in on every page by inserting the data from header.html.
+     * This makes header updates more robust.
+     */
+    
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header-container').innerHTML = data;
+        });
+        
     //trigger modal box when image is clicked
 
     /**
@@ -35,16 +45,5 @@ document.addEventListener("DOMContentLoaded", function() {
             modal.style.display = "none"; //hide modal box when x is clicked
         });
     }
-
-    /**
-     * Loads the header in on every page by inserting the data from header.html.
-     * This makes header updates more robust.
-     */
-    
-    fetch('header.html')
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('header-container').innerHTML = data;
-        });
 });
 
