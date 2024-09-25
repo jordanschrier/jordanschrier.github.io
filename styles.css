@@ -1,18 +1,20 @@
-/* Home page hover effect */
+/* Home page thumbnail hover effect
+ * Transitions border radius + the overlay images
+ */
 
 .thumbnail {
     overflow: hidden;
-    border-radius: 0;
-    transition: border-radius 0.3s ease-in-out;
+    border-radius: 15px;
+    transition: border-radius 0.2s ease-in;
 }
 
 .thumbnail img.overlay {
     opacity: 0;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.4s ease-in;
 }
 
 .thumbnail:hover {
-    border-radius: 10%;
+    border-radius: 40px;
 }
 
 .thumbnail:hover img.overlay {
@@ -20,7 +22,7 @@
 }
 
 .thumbnail img.home {
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
 }
 
 .thumbnail:hover img.home {
@@ -63,31 +65,7 @@ h1, h2, h3 {
     color: inherit;
 }
 
-.thumbnail-container {
-    margin-top: 5vh;
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.thumbnail-container img {
-    height: 23vw;
-    width: 90%;
-    margin-right: 10vw;
-    margin-bottom: 1vw;
-    object-fit: cover;
-    transition: border-radius 0.2s ease-in-out;
-}
-
-.thumbnail-container img:hover {
-    border-radius: 3em;
-}
-
-.work-container {
-    margin-top: 5vh;
-    width: 98%;
-    margin-right: 2vw;
-}
-
+/* Class that formats any descriptions of work throughout the site */
 .work-description {
     width: 50%;
     margin-bottom: 4vh;
@@ -98,15 +76,12 @@ h1, h2, h3 {
     color: black;
 }
 
-/* When just displaying everything as a single column */
-.work-container img {
-    width: 70%;
-    object-fit: cover;
-    margin-bottom: 1vh;
+.work-image:hover {
+    cursor: zoom-in;
 }
 
-.work-image:hover{
-    cursor: zoom-in;
+.work-image {
+    border-radius: 10px;
 }
 
 .grid-row {
@@ -136,16 +111,14 @@ h1, h2, h3 {
     top: 0;
 }
 
+/* My icon logo; displayed at mobile breakpoints */
+
 #mini_header {
     height: 4em;
     display: none;
     transition: filter 0.2s ease-in-out;
     position: absolute;
     top: 50px;
-}
-
-#mini_header:hover {
-    filter: invert(95%) sepia(10%) saturate(865%) hue-rotate(18deg) brightness(88%) contrast(102%);
 }
 
 footer {
@@ -155,14 +128,6 @@ footer {
     text-align: center;
     margin-bottom: 5vw;
     margin-top: 5vw;
-}
-
-#wicked-animation {
-    background-color: #efca9d;
-}
-
-#wicked-animation img{
-    max-width: 200px;
 }
 
 .nav-footer {
@@ -264,27 +229,8 @@ footer {
         display: block;
     }
 
-    .thumbnail-container {
-        display: block;
-        margin-right: 2vw;
-    }
-
-    .thumbnail-container img{
-        width: 100%;
-        height: 65vw;
-        margin-bottom: 2vw;
-    }
-
     .nav-link {
         font-size: 12pt;
-    }
-
-    #work-container {
-        margin-right: 2vw;
-    }
-
-    .thumbnail-container img:hover {
-        border-radius: 4em;
     }
 
     /* Override the custom inline styles so we can reuse the same classes for the other page galleries */
@@ -334,17 +280,6 @@ footer {
     cursor: pointer;
 }
 
-#repo-link { 
-    font-family: "gimlet-sans-variable", sans-serif;
-    font-size: 10pt;
-    font-variation-settings: "slnt" 0, "wght" 500, "opsz" 20;
-    transition: font-variation-settings 0.8s ease;
-}
-
-#repo-link:hover {
-    font-variation-settings: "slnt" 0, "wght" 200, "opsz" 0;
-}
-
 #about-text {
     width: 100%;
     margin-bottom: 4vh;
@@ -353,14 +288,6 @@ footer {
     font-family: "area-normal", sans-serif;
     font-weight: 300;
     font-size: 10pt;
-}
-
-.about-row {
-    margin-top: 6vh;
-    margin-right: 2vw;
-    display: grid;
-    gap: 2vw;
-    margin-bottom: 2vw;
 }
 
 input, textarea {
