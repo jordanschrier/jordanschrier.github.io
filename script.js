@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const about = document.getElementById("about");
             const resume = document.getElementById("resume");
         
-            if(path == "/index.html"){
+            if(path == "/index.html" || path == "/"){
                 home.style.backgroundColor ="#d4dea6";
                 home.style.borderRadius = "20px";
             }else if(path == "/about.html"){
