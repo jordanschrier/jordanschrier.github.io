@@ -17,13 +17,13 @@ document.addEventListener("DOMContentLoaded", function() {
             const resume = document.getElementById("resume");
         
             if(path == "/index.html" || path == "/"){
-                home.style.backgroundColor ="#d4dea6";
+                home.style.boxShadow ="inset 0 0 0 2px #d4dea6";
                 home.style.borderRadius = "20px";
             }else if(path == "/about.html"){
-                about.style.backgroundColor ="#d4dea6";
+                about.style.boxShadow ="inset 0 0 0 2px #d4dea6";
                 about.style.borderRadius = "20px";
             }else if(path == "/resume.html"){
-                resume.style.backgroundColor ="#d4dea6";
+                resume.style.boxShadow ="inset 0 0 0 2px #d4dea6";
                 resume.style.borderRadius = "20px";
             }
         });

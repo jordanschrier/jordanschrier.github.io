@@ -29,8 +29,27 @@
     opacity: 1;
 }
 
-h1, h2, h3 {
+/* override h1 settings from Bootstrap and legend styling for contact form */
+
+h1, legend {
+    font-size: 22pt !important;
     font-family: "gimlet-sans-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 400, "opsz" 10;
+}
+
+h2 {
+    font-size: 15pt !important;
+    font-family: "gimlet-sans-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 400, "opsz" 10;
+    padding-top: 20px;
+}
+
+.resume-list {
+    line-height: 1.3;
+}
+
+li {
+    margin-top: 8px;
 }
 
 .img-fluid {
@@ -74,6 +93,30 @@ h1, h2, h3 {
     font-weight: 300;
     font-size: 11pt;
     color: black;
+}
+
+.resume {
+    font-family: "area-normal", sans-serif;
+    font-weight: 300;
+    font-size: 11pt;
+    color: black;
+    line-height: 0.5;
+}
+
+/* tags to reference aspects of/keywords for each project */
+.tags {
+    font-family: "area-normal", sans-serif;
+    font-weight: 300;
+    font-size: 11pt;
+    border: 2px solid #d4dea6;
+    border-radius: 10px;
+    padding: 5px 15px 8px 15px;
+    line-height: 20px;
+    margin-right: 5px;
+}
+
+.tag-container {
+    display: flex;
 }
 
 .work-image:hover {
@@ -196,16 +239,6 @@ footer {
     padding: 50px;
 }
 
-/* about page */
-
-.hi {
-    margin-top: 20px;
-}
-
-#hi:hover {
-    font-variation-settings: "slnt" 0, "wght" 200, "opsz" 0;
-}
-
 .about-links {
     margin-top: 3vh;
     font-family: "gimlet-sans-variable", sans-serif;
@@ -259,10 +292,6 @@ fieldset {
     margin: 0;
     margin-top: 2vh;
     padding: 0;
-}
-
-form {
-    margin-left: 2vw;
 }
 
 #submit {
@@ -329,18 +358,14 @@ form {
 
 .navbar-nav .nav-link {
     font-variation-settings: "slnt" 0, "wght" 400, "opsz" 0;
-    transition: background-color 0.2s ease, border-radius 0.2s ease;
-    background-color: inherit;
+    box-shadow: inset 0 0 0 0px transparent;
+    transition: box-shadow 0.2s ease-in-out, border-radius 0.2s ease-in-out;
     border-radius: 0px;
     padding: 10px;
 }
 
-.nav-item .nav-link .text {
-    padding: 10px;
-}
-
 .navbar-nav .nav-link:hover {
-    background-color: #d4dea6;
+    box-shadow: inset 0 0 0 2px #d4dea6;
     border-radius: 20px;
 }
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -15,12 +15,15 @@
     <body>
         <script src="script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <div id="header-container"></div>
+        <header id="header-container"></header>
         <div id="home-container">
             <div class="container mt-xxl">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3>Clippies</h3>
+                        <h1>Clippies</h1>
+                        <div class="tag-container mb-4">
+                            <span class="tags">branding</span><span class="tags">product design</span><span class="tags">packaging</span>
+                        </div>
                         <p class="work-description">Clippies is a conceptual, fun solution to the quirks of kids' lunchtime&ndash;a clip that doubles as a utensil and bag clasp, 
                             found hanging in the snack aisles of supermarkets. With vibrancy and minimalism, the brand aims to appeal to both kids and their parents. Paper bags are the
                             ideal Clippies combo, providing a better single-use alternative to snack bags that bring back that lunchtime nostalgia.</p>
@@ -45,10 +48,8 @@
                     <p class="work-description">Check out these <a href="https://www.figma.com/proto/2BUebbx9J0BzATJMvK3ob8/Clippies-Ad-Mockups?node-id=7-15&starting-point-node-id=7%3A15&t=kEInEp7RKPuFAQ1E-1">parallax banner ads</a> I created on Figma!</p>
                     <div class="col-md-15 mb-4">
                         <div class="ratio ratio-16x9">
-                            <video width="1000" height="563" autoplay muted loop>
-                                <source src="https://res.cloudinary.com/dbcek1nhi/video/upload/v1723658068/banner_demo_nfjoif.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
+                            <iframe src="https://player.vimeo.com/video/1016845010?loop=1&autopause=0"
+                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius: 10px;" title="banner_demo_nfjoif"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
                         </div>
                     </div>
                 </div>
@@ -60,7 +61,7 @@
                         id="three-d-viewer"
                         style="height: 400px"
                         data-d8s-type="3d"
-                        data-d8s-id="Clippies-17-5-2024">        
+                        data-d8s-id="Clippies-Box-Mockup-6-9-2024-1">        
                     </div>        
                     
                     <script>
@@ -69,30 +70,27 @@
                             //your account name:
                             account: "d8s-hixquv",
                             //asset types used on the page: 
-                            viewers: ["3D"],   
+                            viewers: ["3D"],  
+                            threeDViewer: {
+                                viewer: {
+                                    controls: {
+                                        //disables scroll-to-zoom functionality (gets annoying when scrolling)
+                                        mouseZoom: false,
+                                        //turn off the 'view in AR' button
+                                        ar: false
+                                    },
+                                    rotation: {
+                                        //turn off rotation when user starts to interact with the model
+                                        offOnInteraction: true,
+                                    },
+                                },
+                            },
                         });     
                     </script>
                 </div>
                 <div class="row mb-4">
-                    <div class="col-md-4 mb-4">
-                        <div class="ratio ratio-1x1">
-                            <img loading="lazy" src="https://res.cloudinary.com/dbcek1nhi/image/upload/v1718679384/Clippies_Photo1_ogfkea.jpg" class="work-image img-fluid" alt="Clippies photo1">
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="ratio ratio-1x1">
-                            <img loading="lazy" src="https://res.cloudinary.com/dbcek1nhi/image/upload/v1718679384/Clippies_Photo2_kptyta.jpg" class="work-image img-fluid" alt="Clippies photo2">
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="ratio ratio-1x1">
-                            <img loading="lazy" src="https://res.cloudinary.com/dbcek1nhi/image/upload/v1718679385/Clippies_Photo3_mjcept.jpg" class="work-image img-fluid" alt="Clippies photo3">
-                        </div>
-                    </div>
-                </div>
-                <div class="row mb-4">
                     <div class="col-md-12">
-                        <h3>Ideation</h3>
+                        <h1>Ideation</h1>
                     </div>
                 </div>
                 <div class="row">
