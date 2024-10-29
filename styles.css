@@ -86,7 +86,7 @@ li {
 
 /* Class that formats any descriptions of work throughout the site */
 .work-description {
-    width: 50%;
+    max-width: 600px;
     margin-bottom: 4vh;
     display: block;
     font-family: "area-normal", sans-serif;
@@ -110,13 +110,15 @@ li {
     font-size: 11pt;
     border: 2px solid #d4dea6;
     border-radius: 10px;
-    padding: 5px 15px 8px 15px;
+    padding: 5px 13px 8px 13px;
     line-height: 20px;
     margin-right: 5px;
+    margin-top: 5px;
 }
 
 .tag-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .work-image:hover {
@@ -141,7 +143,7 @@ li {
 }
 
 #home-container {
-    margin-top: 250px;
+    margin-top: 220px;
 }
 
 #page-container {
@@ -192,10 +194,6 @@ footer {
 
 .nav-footer > .next:hover, .last:hover {
     color: #d4dea6;
-}
-
-.headshot {
-    border-radius: 60px;
 }
 
 /* modal that pops up when an image is clicked */
@@ -267,14 +265,15 @@ input, textarea {
     width: 100%;
     margin-bottom: 2vh;
     border-width: 1px;
-    border-radius: 2px;
+    border-radius: 4px;
+    padding: 5px;
 }
 
 input:focus, textarea:focus {
     border-style: solid;
     outline: 1px solid #d4dea6;
     border-color: #d4dea6;
-    border-radius: 6px;
+    border-radius: 8px;
     border-width: 1px;
     box-sizing: border-box;
 }
@@ -298,14 +297,14 @@ fieldset {
     width: 20vw;
     border-radius: 10px;
     border-width: 0;
-    padding: 4px;
+    padding: 7px;
     transition: background-color 0.3s ease;
     background-color:rgb(235, 235, 235);
     color: black;
     margin-top: 10px;
 }
 
-#submit:hover {
+#submit:focus, #submit:hover {
     background-color: #d4dea6;
     cursor: pointer;
 }
@@ -369,6 +368,11 @@ fieldset {
     border-radius: 20px;
 }
 
+.navbar-nav .nav-link:focus {
+    box-shadow: inset 0 0 0 2px #d4dea6;
+    border-radius: 20px;
+}
+
 #header{
     position: absolute;
     top: 1em;
@@ -376,6 +380,7 @@ fieldset {
 
 .navbar-toggler {
     margin-top: 30px;
+    color: #d4dea6 !important;
 }
 
 .navbar-collapse {
