@@ -47,7 +47,7 @@ const images = {
     },
     
     wicked: {
-        thumbnail: "",
+        thumbnail: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1723595502/wicked_thumbnail_szezfa.jpg",
         hover: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1723589716/Icon_Animation_lr1wi3.gif",
     },
 };
