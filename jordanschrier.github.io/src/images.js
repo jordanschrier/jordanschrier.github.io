@@ -1,6 +1,7 @@
 const images = {
     headshot: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1730238403/JordanSchrier_headshot_mnhjp7.jpg",
     headshotHover: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1730239733/headshot_pattern_c5uqhg.jpg",
+    logo: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1723756903/main_logo_as6g0x.svg",
     miniLogo: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1723756854/mini_logo_wwx92b.svg",
 
     linkedin: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1727493748/1269936_linkedin_social_social_media_icon_pg05vh.svg",
@@ -30,8 +31,9 @@ const images = {
     },
 
     clippies: {
-        thumbnail: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1727302740/Clippies_Box_Mockup_p8vylc.png",
+        thumbnail: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1718679385/Clippies-thumbnail_spkxv7.jpg",
         hover: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1718679384/Clippies_model_iijpwy.gif",
+        rendering: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1727302740/Clippies_Box_Mockup_p8vylc.png",
         sticker: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1718679385/Clippies_sticker_lmb5vf.jpg",
         bags: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1718679384/Clippies_bags_yz892d.jpg",
         ideationClippies: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1723652131/ideation_clippies_jwlhqw.jpg",

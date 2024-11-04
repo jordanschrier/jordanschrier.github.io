@@ -1,7 +1,17 @@
 /* Styles applied throughout the site */
 
+a {
+  color: #172617 !important;
+}
+
 .img-fluid {
   object-fit: cover;
+}
+
+h1 {
+  font-family: "gimlet-sans-variable", sans-serif;
+  font-variation-settings: "slnt" 0, "wght" 500, "opsz" 10;
+  font-size: 22pt !important;
 }
 
 h2, legend {
@@ -41,6 +51,34 @@ footer {
 /* Give room at the top for the header */
 .container-lg{
   padding-top: 100px !important;
+}
+
+/* format the text on the 404 page */
+.not-found {
+  padding: 100px 0px 250px 0px;
+  text-align: center;
+}
+
+.not-found> h1 {
+  font-size: 80px !important;
+}
+
+.work-image:hover {
+  cursor: zoom-in;
+}
+
+.work-image {
+  border-radius: 10px;
+}
+
+.work-description {
+  max-width: 600px;
+  margin-bottom: 4vh;
+  display: block;
+  font-family: "area-normal", sans-serif;
+  font-weight: 300;
+  font-size: 11pt;
+  color: black;
 }
 
 /* The thumbnails seemed too large at the largest Bootstrap container breakpoint */

@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './styles/index.css';
+import Home from './pages/Home';
 import Header from './Header';
-import Crochique from './crochique';
+import Crochique from './pages/Crochique';
+import Scroll from './scroll';
+import PageNotFound from './pages/PageNotFound';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,19 +14,15 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    {<Header />}
+    <Header />
+    <Scroll />
     <Routes>
-      <Route path="/">
-        <Route index element={<App />} />
-        <Route path="crochique" element={<Crochique />} />
-        <Route path="*" element={<App />} />
-      </Route>
+      <Route path="/" element={<Home />} />
+      <Route path="crochique" element={<Crochique />} />
+      <Route path="*" element={<PageNotFound />} />
     </Routes>
     {<footer>Copyright &copy; 2024 Jordan Schrier</footer>}
   </BrowserRouter>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+reportWebVitals(console.log);
