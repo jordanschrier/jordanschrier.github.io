@@ -44,6 +44,12 @@ const images = {
     reconnecting: {
         thumbnail: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1730217076/Reconnecting-Mockup_wtbyhm.jpg",
         hover: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1730150055/Reconnecting-Thumbnail_tylymd.gif",
+        frames: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1730486087/reconnecting-first_f0vd1v.jpg",
+        sketches: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1730485377/wireframe-sketches_c8jm9j.png",
+        mobile: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1730485377/wireframe-mobile_kdaomx.png",
+        desktop: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1730485377/wireframe-desktop_ligkxp.png",
+        personaProf: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1730485126/Archetype_2_fbhhoz.jpg",
+        personaStudent: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1730485126/Archetype_1_qirrxq.jpg",
     },
     
     wicked: {

@@ -45,12 +45,12 @@ function Home() {
           </div>
         </div>
         <div className="col-md-6 py-3">
-          <a href="reconnecting.html">
+          <Link to="/reconnecting-lehigh">
               <div className="ratio ratio-4x3 thumbnail">
                 <img src={images.reconnecting.thumbnail} className="img-fluid home" alt="Reconnecting Lehigh Mobile UI Mockup"></img>
                 <img src={images.reconnecting.hover} className="img-fluid home overlay" alt="Reconnecting Lehigh Widget Micro-Interactions"></img>
               </div>
-            </a>
+          </Link>
           <h2>Reconnecting Lehigh</h2>
           <div className="tag-container">
             <span className="tags">UI/UX Design</span>
