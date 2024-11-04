@@ -1,0 +1,51 @@
+/* Styles applied throughout the site */
+
+.img-fluid {
+  object-fit: cover;
+}
+
+h2, legend {
+  font-size: 15pt !important;
+  font-family: "gimlet-sans-variable", sans-serif;
+  font-variation-settings: "slnt" 0, "wght" 400, "opsz" 10;
+  margin-top: 15px !important;
+}
+
+/* tags to reference aspects of/keywords for each project */
+.tags {
+  font-family: "area-normal", sans-serif;
+  font-weight: 300;
+  font-size: 11pt;
+  border: 2px solid #d4dea6;
+  border-radius: 10px;
+  padding: 5px 15px 8px 15px;
+  line-height: 20px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 70px;
+  font-family: "area-normal", sans-serif;
+  font-weight: 500;
+  font-size: 12pt;
+}
+
+/* Give room at the top for the header */
+.container-lg{
+  padding-top: 100px !important;
+}
+
+/* The thumbnails seemed too large at the largest Bootstrap container breakpoint */
+@media only screen and (min-width: 1400px) {
+  .container-lg {
+    max-width: 1140px !important;
+  }
+}
