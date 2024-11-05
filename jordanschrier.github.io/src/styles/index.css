@@ -21,6 +21,12 @@ h2, legend {
   margin-top: 15px !important;
 }
 
+h3 {
+  font-size: 14pt !important;
+  font-family: "gimlet-sans-variable", sans-serif;
+  font-variation-settings: "slnt" 0, "wght" 400, "opsz" 20;
+}
+
 /* tags to reference aspects of/keywords for each project */
 .tags {
   font-family: "area-normal", sans-serif;
