@@ -15,10 +15,10 @@ import About from './pages/About';
 import Scroll from './scroll';
 import Resume from './pages/Resume';
 
-import reportWebVitals from './reportWebVitals';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'bs5-lightbox';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -38,5 +38,3 @@ root.render(
     {<footer>Copyright &copy; 2024 Jordan Schrier</footer>}
   </BrowserRouter>
 );
-
-reportWebVitals(console.log);
