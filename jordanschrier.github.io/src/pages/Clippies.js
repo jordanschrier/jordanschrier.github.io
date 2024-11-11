@@ -31,9 +31,12 @@ export default function Clippies(){
                     <div className="tag-container mb-4">
                         <span className="tags">branding</span><span className="tags">product design</span><span className="tags">packaging</span>
                     </div>
-                    <p className="work-description">Clippies is a conceptual, fun solution to the quirks of kids' lunchtime&ndash;a clip that doubles as a utensil and bag clasp, 
-                        found hanging in the snack aisles of supermarkets. With vibrancy and minimalism, the brand aims to appeal to both kids and their parents. Paper bags are the
-                        ideal Clippies combo, providing a better single-use alternative to snack bags that bring back that lunchtime nostalgia.</p>
+                    <p className="desc">
+                        Clippies is a conceptual, fun solution to the quirks of kids' lunchtime&ndash;a clip that doubles as a utensil and bag clasp, 
+                        found hanging in the snack aisles of supermarkets. With vibrancy and minimalism, the brand aims to appeal to both kids and their 
+                        parents. Paper bags are the ideal Clippies combo, providing a better single-use alternative to snack bags that bring back that 
+                        lunchtime nostalgia.
+                    </p>
                 </div>
                 <div className="col mb-4">
                     <img loading="lazy" src={images.clippies.rendering} className="work-image img-fluid" alt="Clippies Packaging Mockup"></img>
@@ -52,7 +55,7 @@ export default function Clippies(){
                 </div>
             </div>
             <div className="row mb-4">
-                <p className="work-description">Check out these <a href="https://www.figma.com/proto/2BUebbx9J0BzATJMvK3ob8/Clippies-Ad-Mockups?node-id=7-15&starting-point-node-id=7%3A15&t=kEInEp7RKPuFAQ1E-1">parallax banner ads</a> I created on Figma!</p>
+                <p className="desc">Check out these <a className="link" href="https://www.figma.com/proto/2BUebbx9J0BzATJMvK3ob8/Clippies-Ad-Mockups?node-id=7-15&starting-point-node-id=7%3A15&t=kEInEp7RKPuFAQ1E-1">parallax banner ads</a> I created on Figma!</p>
                 <div className="col-md-15 mb-4">
                     <div className="ratio ratio-16x9">
                         <iframe 
@@ -67,7 +70,13 @@ export default function Clippies(){
             </div>
             <div className="row mb-4">
                 <div className="col-md-12">
-                    <p className="work-description">I delved into product design components while developing the Clippies brand, working in Rhino to 3D model and print multiple iterations of the clip itself. This involved studying the shape and scale of kids' utensils and bag clips with the limitations of a traditional 3D printer. Modifying a hanging box dieline to fit 4 colorful clips seen through the logo's letters, I lasercut and etched single-color icons and text describing the product.</p>
+                    <p className="desc">
+                        I delved into product design components while developing the Clippies brand, working in Rhino to 3D model 
+                        and print multiple iterations of the clip itself. This involved studying the shape and scale of kids' 
+                        utensils and bag clips with the limitations of a traditional 3D printer. Modifying a hanging box dieline 
+                        to fit 4 colorful clips seen through the logo's letters, I lasercut and etched single-color icons and text 
+                        describing the product.
+                    </p>
                 </div>
                 <div
                     id="three-d-viewer"

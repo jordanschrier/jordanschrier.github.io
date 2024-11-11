@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import './styles/index.css';
 
@@ -15,14 +15,12 @@ import About from './pages/About';
 import Scroll from './scroll';
 import Resume from './pages/Resume';
 
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import 'bs5-lightbox';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <Header />
     <Scroll />
     <Routes>
@@ -36,5 +34,5 @@ root.render(
       <Route path="*" element={<PageNotFound />} />
     </Routes>
     {<footer>Copyright &copy; 2024 Jordan Schrier</footer>}
-  </BrowserRouter>
+  </HashRouter>
 );

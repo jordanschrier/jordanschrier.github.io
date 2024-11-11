@@ -13,7 +13,7 @@ function Home() {
               <img src={images.clippies.hover} className="img-fluid home overlay" alt="Clippies 3D Model Animation"></img>
             </div>
           </Link>
-          <h2>Clippies</h2>
+          <h2 className="pt-3">Clippies</h2>
           <div className="tag-container">
             <span className="tags">branding</span><span className="tags">product design</span><span className="tags">packaging</span>
           </div>
@@ -25,7 +25,7 @@ function Home() {
               <img src={images.greenway.hover} className="img-fluid home overlay" alt="Greenway Augmented Reality Demo"></img>
             </div>
           </Link>
-          <h2>Greenway Gallery</h2>
+          <h2 className="pt-3">Greenway Gallery</h2>
           <div className="tag-container">
             <span className="tags">augmented reality (AR)</span><span className="tags">branding</span>
           </div>
@@ -39,7 +39,7 @@ function Home() {
                 <img src={images.crochique.hover} className="img-fluid home overlay" alt="Crochique: mobile video walkthrough"></img>
               </div>
           </Link>
-          <h2>Crochique</h2>
+          <h2 className="pt-3">Crochique</h2>
           <div className="tag-container">
             <span className="tags">UI/UX Design</span><span className="tags">branding</span>
           </div>
@@ -51,7 +51,7 @@ function Home() {
                 <img src={images.reconnecting.hover} className="img-fluid home overlay" alt="Reconnecting Lehigh Widget Micro-Interactions"></img>
               </div>
           </Link>
-          <h2>Reconnecting Lehigh</h2>
+          <h2 className="pt-3">Reconnecting Lehigh</h2>
           <div className="tag-container">
             <span className="tags">UI/UX Design</span>
           </div>
@@ -65,7 +65,7 @@ function Home() {
               <img src={images.wicked.hover} className="img-fluid home overlay" alt="Wicked Icon Animation"></img>
             </div>
           </a>
-          <h2>Wicked</h2>
+          <h2 className="pt-3">Wicked</h2>
           <div className="tag-container">
             <span className="tags">branding</span><span className="tags">animation</span>
           </div>

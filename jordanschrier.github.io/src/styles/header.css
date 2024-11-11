@@ -10,17 +10,8 @@
     height: 80px;
 }
 
-.icon-box img{
-    width: 23px;
-    height: auto;
-}
-
 .navbar {
     padding: 40px !important;
-}
-
-.navbar-nav {
-    align-items: center !important;
 }
 
 .navbar-nav .nav-link {
@@ -28,7 +19,7 @@
     box-shadow: inset 0 0 0 0px transparent;
     transition: box-shadow 0.2s ease-in-out, border-radius 0.2s ease-in-out;
     border-radius: 0px;
-    padding: 10px !important;
+    padding: 10px 12px 9px 12px !important;
     margin-left: 3vw;
     font-family: "gimlet-sans-variable", sans-serif;
     font-size: 13pt !important;
@@ -46,13 +37,12 @@
     border-radius: 20px;
 }
 
-.navbar-toggler:focus {
-    box-shadow: inset 0 0 0 2px #d4dea6 !important;
+.navbar-toggler {
+    border-radius: 15px !important;
 }
 
-.icon-box {
-    width: 50px;
-    height: 50px;
+.navbar-toggler:focus {
+    box-shadow: inset 0 0 0 2px #d4dea6 !important;
 }
 
 /* Class is appended to the header link to indicate it's the current page */

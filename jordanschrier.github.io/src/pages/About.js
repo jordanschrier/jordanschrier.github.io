@@ -4,14 +4,19 @@ import "../styles/about.css";
 export default function About(){
     return(
         <div className="container-lg">
-            <div className="row">
+            <div className="row about">
                 <div className="col-md-7">
                     <h1>Hi, I'm Jordan</h1>
-                    <p className="work-description">
-                        I'm a designer and developer passionate about enhancing interactivity and engagement in
-                        areas of high impact. With a background in marketing, web development, and user experience, 
-                        I'm always trying new tools to make creative projects stand out. Recently, that included
-                        augmented reality, 3D modeling/rendering, and generative AI.
+                    <p className="desc">
+                        I'm a designer and developer focused on enhancing engagement in high-impact areas with bold, accessible design.
+                        As a senior double majoring in Design and Computer Science with a
+                        cognitive science minor, I approach the design process holistically, considering implementation
+                        and accessibility constraints.
+                    </p>
+                    <p className="desc">
+                        With a background in marketing, web development, and user experience, I'm always trying new
+                        tools to make creative projects stand out&mdash;most recently, augmented reality, 3D modeling/rendering, 
+                        and generative AI.
                     </p>
                     <form id="fs-frm" name="contact" acceptCharset="utf-8" action="https://formspree.io/f/xbjnbbnw" method="post">
                         <fieldset id="fs-frm-inputs">
@@ -24,7 +29,7 @@ export default function About(){
                             <textarea rows="5" name="message" id="message" placeholder="Message" required=""></textarea>
                             <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"></input>
                         </fieldset>
-                        <input id="submit" type="submit" value="Submit"></input>
+                        <button className="mt-2" id="submit" type="submit" value="Submit">Submit</button>
                     </form>
                 </div>
                 <div className="col-md-5">

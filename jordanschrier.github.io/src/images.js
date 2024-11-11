@@ -4,9 +4,6 @@ const images = {
     logo: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1723756903/main_logo_as6g0x.svg",
     miniLogo: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1723756854/mini_logo_wwx92b.svg",
 
-    linkedin: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1727493748/1269936_linkedin_social_social_media_icon_pg05vh.svg",
-    github: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1727493733/github-mark_t3yai9.svg",
-
     crochique: {
         thumbnail: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1730217960/Crochique_thumbnail_wlhzj3.jpg",
         hover: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1730234399/crochique_demo_xhtf5k.gif",
@@ -14,6 +11,7 @@ const images = {
         persona: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1727050688/Milana_persona_lnwpz2.png",
         wireframe: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1727051181/Crochique_lowfidelity_yzf8dv.png",
         styleTile: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1727051991/Crochique_Style_Tile_mboz4d.png",
+        variants: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1730996730/Crochique_Variants_totglt.gif",
     },
 
     greenway: {

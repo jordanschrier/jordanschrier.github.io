@@ -1,40 +1,64 @@
 /* Styles applied throughout the site */
 
-a {
+button:not(.navbar-toggler) {
+  width: 100px !important;
+  border: 2px solid #d4dea6;
+  border-radius: 20px !important;
+  padding: 8px 10px 7px 10px;
+  background-color: transparent !important;
+  transition: background-color 0.2s ease;
+}
+
+button:hover:not(.navbar-toggler), button:focus:not(.navbar-toggler) {
+  background-color: #d4dea6 !important;
+}
+
+.link {
   color: #172617 !important;
+  text-decoration: underline #d4dea6 2px !important;
+  transition: background-color 0.2s ease;
+}
+
+.link:hover, .link:focus {
+  background-color: #d4dea6;
 }
 
 .img-fluid {
   object-fit: cover;
 }
 
+li {
+  padding-bottom: 14px;
+}
+
 h1 {
   font-family: "gimlet-sans-variable", sans-serif;
   font-variation-settings: "slnt" 0, "wght" 500, "opsz" 10;
-  font-size: 22pt !important;
+  font-size: 18pt !important;
 }
 
 h2, legend {
   font-size: 15pt !important;
   font-family: "gimlet-sans-variable", sans-serif;
-  font-variation-settings: "slnt" 0, "wght" 400, "opsz" 10;
-  margin-top: 15px !important;
+  font-variation-settings: "slnt" 0, "wght" 450, "opsz" 10;
+  margin-bottom: 0 !important;
 }
 
 h3 {
-  font-size: 14pt !important;
+  font-size: 13pt !important;
   font-family: "gimlet-sans-variable", sans-serif;
-  font-variation-settings: "slnt" 0, "wght" 400, "opsz" 20;
+  font-variation-settings: "slnt" 0, "wght" 350, "opsz" 10;
+  margin-bottom: 0 !important;
 }
 
 /* tags to reference aspects of/keywords for each project */
 .tags {
-  font-family: "area-normal", sans-serif;
-  font-weight: 300;
+  font-family: "area-variable", sans-serif;
+  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500, "INKT" 0;
   font-size: 11pt;
   border: 2px solid #d4dea6;
   border-radius: 10px;
-  padding: 5px 15px 8px 15px;
+  padding: 9px 15px 5px 15px;
   line-height: 20px;
   margin-right: 5px;
   margin-top: 5px;
@@ -50,8 +74,8 @@ footer {
   text-align: center;
   padding-bottom: 70px;
   padding-top: 40px;
-  font-family: "area-normal", sans-serif;
-  font-weight: 500;
+  font-family: "area-variable", sans-serif;
+  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 600, "INKT" 0;
   font-size: 12pt;
 }
 
@@ -70,27 +94,32 @@ footer {
   font-size: 80px !important;
 }
 
+/* Adjust to zoom-in when lightbox is reimplemented */
 .work-image:hover {
-  cursor: zoom-in;
+  cursor: default;
 }
 
 .work-image {
   border-radius: 10px;
 }
 
-.work-description {
-  max-width: 600px;
-  margin-bottom: 4vh;
+.desc {
+  max-width: 600px !important;
   display: block;
-  font-family: "area-normal", sans-serif;
-  font-weight: 300;
+  font-family: "area-variable", sans-serif;
+  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400, "INKT" 100;
   font-size: 11pt;
   color: black;
+  margin-bottom: 15px;
 }
 
 /* The thumbnails seemed too large at the largest Bootstrap container breakpoint */
 @media only screen and (min-width: 1400px) {
   .container-lg {
     max-width: 1140px !important;
+  }
+
+  .desc {
+    font-size: 16px !important;
   }
 }

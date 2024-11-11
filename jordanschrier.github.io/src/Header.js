@@ -33,16 +33,10 @@ export default function Header(){
                             resume
                         </Link>
                         <a className="nav-link icon-box" href="https://linkedin.com/in/jordanschrier">
-                            <img 
-                                alt="LinkedIn Icon"
-                                src={images.linkedin} className="icon">
-                            </img>
+                            <i className="fa-brands fa-linkedin-in fa-lg"></i>
                         </a>
                         <a className="nav-item nav-link icon-box github" href="https://github.com/jordanschrier/jordanschrier.github.io">
-                            <img 
-                                alt="GitHub Icon" 
-                                src={images.github} className="icon github">
-                            </img>
+                            <i className="fa-brands fa-github fa-lg"></i>
                         </a>
                     </div>
                 </div>
