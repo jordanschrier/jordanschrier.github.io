@@ -1,8 +1,24 @@
+/**
+ * Library of Cloudinary-stored images to shorten JSX.
+ * Checks the user's preferred color scheme and sets the logo sources accordingly.
+ */
+
+let logo = "https://res.cloudinary.com/dbcek1nhi/image/upload/v1731344869/main_logo_darkmode_g5xrrr.svg";
+let miniLogo = "https://res.cloudinary.com/dbcek1nhi/image/upload/v1731344865/mini_logo_darkmode_roebgg.svg";
+
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    logo = "https://res.cloudinary.com/dbcek1nhi/image/upload/v1731344869/main_logo_darkmode_g5xrrr.svg";
+    miniLogo = "https://res.cloudinary.com/dbcek1nhi/image/upload/v1731344865/mini_logo_darkmode_roebgg.svg";
+}else{
+    logo = "https://res.cloudinary.com/dbcek1nhi/image/upload/v1723756903/main_logo_as6g0x.svg";
+    miniLogo = "https://res.cloudinary.com/dbcek1nhi/image/upload/v1723756854/mini_logo_wwx92b.svg";
+}
+
 const images = {
     headshot: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1730238403/JordanSchrier_headshot_mnhjp7.jpg",
     headshotHover: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1730239733/headshot_pattern_c5uqhg.jpg",
-    logo: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1723756903/main_logo_as6g0x.svg",
-    miniLogo: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1723756854/mini_logo_wwx92b.svg",
+    logo,
+    miniLogo,
 
     crochique: {
         thumbnail: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1730217960/Crochique_thumbnail_wlhzj3.jpg",

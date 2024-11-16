@@ -1,5 +1,9 @@
 /* Styles applied throughout the site */
 
+* {
+  color: #172617;
+}
+
 button:not(.navbar-toggler) {
   width: 100px !important;
   border: 2px solid #d4dea6;
@@ -107,7 +111,7 @@ footer {
   max-width: 600px !important;
   display: block;
   font-family: "area-variable", sans-serif;
-  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400, "INKT" 100;
+  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 450, "INKT" 100;
   font-size: 11pt;
   color: black;
   margin-bottom: 15px;
@@ -121,5 +125,29 @@ footer {
 
   .desc {
     font-size: 16px !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  * {
+    background-color: #172617 !important;
+    color: #F8E3C3 !important;
+  }
+
+  .navbar.bg-white {
+    background-color: #172617 !important;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23F8E3C3' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+  }
+
+  .navbar-toggler {
+    border-color: #d4dea6 !important;
+  }
+
+  input, textarea {
+    border-color: #d4dea6 !important;
+    background-color: #313d2c !important;
   }
 }

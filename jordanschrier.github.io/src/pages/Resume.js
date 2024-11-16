@@ -81,7 +81,7 @@ export default function Resume(){
                 <div className="col-md-4">
                     <h2>Lehigh F1RST</h2>
                     <h3>Vice President</h3>
-                    <p className="date">Aug 2021 &mdash; Dec 2023</p>
+                    <p className="date">May 2024 &mdash; Present</p>
                 </div>
                 <div className="col">
                     <ul className="desc">
