@@ -7,7 +7,7 @@ export default function Greenway(){
                 <div className="col-md-12">
                     <h1>Greenway Gallery</h1>
                     <div className="tag-container mb-4">
-                    <span className="tags">augmented reality (AR)</span><span className="tags">branding</span>
+                        <div className="tags"><span>augmented reality (AR)</span><span>branding</span></div>
                     </div>
                     <p className="desc">Collaborating with engineering, architecture, product and graphic design students, our design team developed a
                         branding system for our yearlong redesign of public art panels on the South Bethlehem Greenway.

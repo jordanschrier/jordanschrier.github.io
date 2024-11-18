@@ -29,7 +29,7 @@ export default function About(){
                             <textarea rows="5" name="message" id="message" placeholder="Message" required=""></textarea>
                             <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"></input>
                         </fieldset>
-                        <button className="mt-2" id="submit" type="submit" value="Submit">Submit</button>
+                        <button className="mt-2" id="submit" type="submit" value="Submit">Submit<i class="fa-solid fa-arrow-right"></i></button>
                     </form>
                 </div>
                 <div className="col-md-5">

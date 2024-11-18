@@ -26,10 +26,10 @@ export default function Header(){
                         <Link to="/" className={`nav-link text ${pathname === '/' ? 'active' : ''}`}>
                             work
                         </Link>
-                        <Link to="about" className={`nav-link text ${pathname === 'about' ? 'active' : ''}`}>
+                        <Link to="about" className={`nav-link text ${pathname === '/about' ? 'active' : ''}`}>
                             about
                         </Link>
-                        <Link to="resume" className={`nav-link text ${pathname === 'resume' ? 'active' : ''}`}>
+                        <Link to="resume" className={`nav-link text ${pathname === '/resume' ? 'active' : ''}`}>
                             resume
                         </Link>
                         <a className="nav-link icon-box" href="https://linkedin.com/in/jordanschrier">

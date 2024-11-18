@@ -29,7 +29,7 @@ export default function Clippies(){
                 <div className="col-md-12">
                     <h1>Clippies</h1>
                     <div className="tag-container mb-4">
-                        <span className="tags">branding</span><span className="tags">product design</span><span className="tags">packaging</span>
+                        <div className="tags"><span>branding</span><span>product design</span><span>packaging</span></div>
                     </div>
                     <p className="desc">
                         Clippies is a conceptual, fun solution to the quirks of kids' lunchtime&ndash;a clip that doubles as a utensil and bag clasp, 

@@ -7,7 +7,8 @@ export default function Reconnecting(){
                 <div className="col-md-12">
                     <h1>Reconnecting Lehigh</h1>
                     <div className="tag-container mb-4">
-                        <span className="tags">UI/UX Design</span>
+                        <div className="tags"><span>UI/UX design</span></div>
+                        <div className="tags link-btn"><a href="https://www.figma.com/proto/5uq3VUnkZrczTpHFqtN4NM/Reconnecting-Lehigh-Collaborative-Boards?page-id=31%3A44&node-id=31-46&starting-point-node-id=31%3A46&t=GenUq8pDDqTp7pUv-1">Prototype<i className="fa-solid fa-up-right-from-square"></i></a></div>
                     </div>
                     <div className="col mb-4">
                         <p className="desc">Connect Lehigh is a recently launched campus dashboard focused on customization, serving as a hub for the entire campus community.</p>

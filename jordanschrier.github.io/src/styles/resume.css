@@ -10,7 +10,7 @@
 }
 
 .resume .section {
-    text-decoration: underline #d4dea6 2px;
+    text-decoration: underline var(--light-green) 2px;
 }
 
 .col-md-4 {

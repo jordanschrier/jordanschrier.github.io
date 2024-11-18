@@ -12,8 +12,8 @@ input, textarea {
 
 input:focus, textarea:focus {
     border-style: solid;
-    outline: 1px solid #d4dea6;
-    border-color: #d4dea6;
+    outline: 1px solid var(--light-green);
+    border-color: var(--light-green);
     border-radius: 8px;
     border-width: 1px;
     box-sizing: border-box;

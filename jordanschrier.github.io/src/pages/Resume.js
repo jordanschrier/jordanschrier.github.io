@@ -99,26 +99,28 @@ export default function Resume(){
             <div className="row pt-3">
                 <h1 className="section mb-3 mt-3">Skills & Tools</h1>
                 <div className="col">
-                <div className="tag-container">
-                    <span className="tags">Wireframing & Prototyping</span>
-                    <span className="tags">Augmented Reality (AR)</span>
-                    <span className="tags">Responsive Design</span>
-                    <span className="tags">Agile Development</span>
-                    <span className="tags">HTML/CSS</span>
-                    <span className="tags">Javascript</span>
-                    <span className="tags">Typescript</span>
-                    <span className="tags">Java</span>
-                    <span className="tags">SQL</span>
-                    <span className="tags">REST</span>
-                    <span className="tags">React</span>
-                    <span className="tags">Bootstrap</span>
-                    <span className="tags">Git</span>
-                    <span className="tags">Jira</span>
-                    <span className="tags">Sharepoint</span>
-                    <span className="tags">Veeva Vault PromoMats</span>
-                    <span className="tags">Adobe Creative Suite</span>
-                    <span className="tags">Figma</span>
-                </div>
+                    <div className="tag-container">
+                        <div className="tags">
+                        <span>Wireframing & Prototyping</span>
+                        <span>Augmented Reality (AR)</span>
+                        <span>Responsive Design</span>
+                        <span>Agile Development</span>
+                        <span>HTML/CSS</span>
+                        <span>Javascript</span>
+                        <span>Typescript</span>
+                        <span>Java</span>
+                        <span>SQL</span>
+                        <span>REST</span>
+                        <span>React</span>
+                        <span>Bootstrap</span>
+                        <span>Git</span>
+                        <span>Jira</span>
+                        <span>Sharepoint</span>
+                        <span>Veeva Vault PromoMats</span>
+                        <span>Adobe Creative Suite</span>
+                        <span>Figma</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

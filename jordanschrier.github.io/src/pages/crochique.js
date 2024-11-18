@@ -6,14 +6,15 @@ export default function Crochique() {
             <div className="row">
                 <h1>Crochique</h1>
                 <div className="tag-container mb-4">
-                    <span className="tags">UI/UX Design</span><span className="tags">branding</span>
+                    <div className="tags"><span>UI/UX design</span><span>branding</span></div>
+                    <div className="tags link-btn"><a href="https://www.figma.com/proto/nkMxPwNEPTVhxffoNDIGll/P1-%7C-Jordan-Schrier-%7C-E-Commerce-Mobile-Site?page-id=5470%3A2012&node-id=5470-2013&starting-point-node-id=5470%3A2013&t=QFsxIexNvVAh56RH-1">Prototype<i className="fa-solid fa-up-right-from-square"></i></a></div>
                 </div>
                 <p className="desc">
                     Crochique, a conceptual mobile e-commerce site, aims to increase accessibility to the crocheting hobby
                     through modularized design and a customizable kit-building interface.
                 </p>
             </div>
-            <div className="col-10 mb-4 d-flex justify-content-center">
+            <div className="col mb-4">
                 <div><img loading="lazy" src={images.crochique.steps} className="work-image img-fluid" alt="Crochique UI kit-building interface"></img></div>
             </div>
             <div className="row">
