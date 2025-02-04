@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import Crochique from './pages/Crochique';
 import Clippies from './pages/Clippies';
 import Greenway from './pages/Greenway';
+import Advisa from './pages/Advisa';
 import Reconnecting from './pages/Reconnecting';
 import PageNotFound from './pages/PageNotFound';
 import About from './pages/About';
@@ -29,6 +30,7 @@ root.render(
       <Route path="clippies" element={<Clippies />} />
       <Route path="greenway-gallery" element={<Greenway />} />
       <Route path="reconnecting-lehigh" element={<Reconnecting />} />
+      <Route path="advisa" element={<Advisa />} />
       <Route path="resume" element={<Resume />} />
       <Route path="about" element={<About />} />
       <Route path="*" element={<PageNotFound />} />

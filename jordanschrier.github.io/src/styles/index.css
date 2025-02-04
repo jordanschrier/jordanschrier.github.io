@@ -36,11 +36,6 @@ button#submit {
 .link {
   color: var(--dark-green) !important;
   text-decoration: underline var(--light-green) 2px !important;
-  transition: background-color 0.2s ease;
-}
-
-.link:hover, .link:focus {
-  background-color: var(--light-green);
 }
 
 .img-fluid {
@@ -76,7 +71,7 @@ h3 {
   font-family: "area-variable", sans-serif;
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500, "INKT" 0;
   font-size: 11pt;
-  border: 1px solid var(--light-green);
+  border: 2px solid var(--light-green);
   border-radius: 10px;
   padding: 9px 15px 5px 15px;
   margin-right: 5px;
@@ -91,6 +86,7 @@ h3 {
   display: inline-flex;
   align-items: baseline;
   gap: 6px;
+  color: black;
 }
 
 .link-btn a i {
@@ -151,6 +147,10 @@ footer {
   margin-bottom: 15px;
 }
 
+.bold {
+  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 700, "INKT" 100;
+}
+
 /* The thumbnails seemed too large at the largest Bootstrap container breakpoint */
 @media only screen and (min-width: 1400px) {
   .container-lg {
@@ -166,6 +166,10 @@ footer {
 
   .link {
     color: #F8E3C3 !important;
+  }
+
+  .tags span:not(.link-btn a), .tags a:not(.link-btn a) {
+    border: 1px solid var(--light-green);
   }
 
   .navbar.bg-white {

@@ -115,7 +115,12 @@ export default function Crochique() {
                             that Firefly works best with an iterative approach: uploading a reference, using the best 
                             image it generates as a reference, and so on until it creates something convincing.
                         </p>
-                        <p className="desc">For some of the kit/product thumbnails, I used Photoshop to insert
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-12">
+                        <img loading="lazy" src={images.crochique.thumbnail} className="work-image img-fluid" alt="Crochique mobile frames"></img>
+                        <p className="desc mt-4">For some of the kit/product thumbnails, I used Photoshop to insert
                             the solid-color backgrounds then added grainy drop shadows. Not finding free images or models
                             of a blocking board, I personally 3D modeled it, then uploaded it to Firefly as a reference 
                             to match the lighting to my other images.
@@ -124,8 +129,8 @@ export default function Crochique() {
                         <p className="desc">To tie everything together, I used <a className="link" href="https://www.noiseandgradient.com/?chaos=0.1&colors=%23ed625d-%2342b6c6-%23f79f88-%23b2dfe6-%2303232d&grain=0.1">
                             Noise & Gradient</a> to make a trendy gradient background for the entire site.
                         </p>
+                    </div>
                 </div>
-            </div>
         </div>
     );
 }

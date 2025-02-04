@@ -70,6 +70,13 @@ const images = {
         thumbnail: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1723595502/wicked_thumbnail_szezfa.jpg",
         hover: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1723589716/Icon_Animation_lr1wi3.gif",
     },
+
+    advisa: {
+        screens: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1736857873/Advisa_Mockup-Screens_pm8gwv.jpg",
+        thumbnail: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1736857872/Advisa_Mockup_Devices_s2deug.jpg",
+        hover: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1736861442/Advisa_Hover_c4vunq.gif",
+        mockup: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1736857872/Advisa_Mockup_User_dxvgti.jpg",
+    },
 };
 
 export default images;

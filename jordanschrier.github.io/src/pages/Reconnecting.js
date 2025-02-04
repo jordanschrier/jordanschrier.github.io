@@ -16,7 +16,7 @@ export default function Reconnecting(){
                             with goals of increasing accessibility and reorganizing information.
                         </p>
                     </div>
-                    <div className="col mb-4 d-flex justify-content-center">
+                    <div className="col mb-4 d-flex">
                         <img loading="lazy" src={images.reconnecting.frames} className="work-image img-fluid" alt="Reconnecting Lehigh UI Mobile Frames"></img>
                     </div>
                     <p className="desc">Common anecdotes on the website are both visual and functional, with many embedded iFrames, lack of visual graphics,
@@ -32,12 +32,12 @@ export default function Reconnecting(){
                 </div>
                 <div className="col-md-12">
                     <p className="desc">We developed personas based on the main categories of users on the site, honing in on students (who may or may not be work-study employees) and faculty.</p>
-                    <div className="col mb-4 d-flex justify-content-center">
+                    <div className="col mb-4 d-flex">
                         <div>
                             <img loading="lazy" src={images.reconnecting.personaProf} className="work-image img-fluid" alt="User persona for 'Concise Chris', a professor who finds the current site confusing"></img>
                         </div>
                     </div>
-                    <div className="col mb-4 d-flex justify-content-center">
+                    <div className="col mb-4 d-flex">
                         <div>
                             <img loading="lazy" src={images.reconnecting.desktop} className="work-image img-fluid" alt="Desktop wireframes with sections for links and widgets"></img>
                         </div>
@@ -53,7 +53,7 @@ export default function Reconnecting(){
                 </div>
             </div>
             <div className="row">
-                <div className="col mb-4 d-flex justify-content-center">
+                <div className="col mb-4 d-flex">
                     <div>
                         <img loading="lazy" src={images.reconnecting.mobile} className="work-image img-fluid" alt="Mobile wireframes with a carousel of icons and widget section"></img>
                     </div>
