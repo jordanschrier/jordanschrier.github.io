@@ -28,6 +28,7 @@ const images = {
         wireframe: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1727051181/Crochique_lowfidelity_yzf8dv.png",
         styleTile: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1727051991/Crochique_Style_Tile_mboz4d.png",
         variants: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1730996730/Crochique_Variants_totglt.gif",
+        screens: "https://res.cloudinary.com/dbcek1nhi/image/upload/v1739211173/Crochique_frames_ldyvf9.jpg",
     },
 
     greenway: {

@@ -1,11 +1,12 @@
 import images from "../images"
 import { useEffect } from "react";
+import More from "../more";
 
 export default function Clippies(){
     useEffect(() => {
         // Initialize the Dimensions tag
         window.initDimensions({
-            account: "d8s-hixquv",
+            cloudName: "d8s-hixquv",
             viewers: ["3D"],
             threeDViewer: {
                 viewer: {
@@ -87,7 +88,7 @@ export default function Clippies(){
             </div>
             <div className="row mb-4">
                 <div className="col-md-12">
-                    <h1>Ideation</h1>
+                    <h2>Ideation</h2>
                 </div>
             </div>
             <div className="row">
@@ -111,6 +112,14 @@ export default function Clippies(){
                     </div>
                 </div>
             </div>
+            <More 
+                prevImg={images.greenway.thumbnail}
+                nextImg={images.reconnecting.thumbnail}
+                prevName={"Greenway Gallery"}
+                nextName={"Reconnecting Lehigh"}
+                prevLink={"/greenway-gallery"}
+                nextLink={"/reconnecting-lehigh"}
+            />
         </div>
     );
 }

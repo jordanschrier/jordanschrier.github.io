@@ -1,4 +1,5 @@
 import images from "../images";
+import More from "../more";
 
 export default function Reconnecting(){
     return(
@@ -46,7 +47,8 @@ export default function Reconnecting(){
             </div>
             <div className="row">
                 <div className="col-md-12">
-                    <p className="desc">To reorganize the information and keep the merit of a customizable portal, I developed
+                    <p className="desc">
+                        To reorganize the information and keep the merit of a customizable portal, I developed
                         widget concepts for centralized information. We additionally utilized existing icons from The Perch to categorize
                         the information and increase screen reader and keyboard accessibility.
                     </p>
@@ -59,6 +61,14 @@ export default function Reconnecting(){
                     </div>
                 </div>
             </div>
+            <More 
+                prevImg={images.clippies.thumbnail}
+                nextImg={images.crochique.thumbnail}
+                prevName={"Clippies"}
+                nextName={"Crochique"}
+                prevLink={"/clippies"}
+                nextLink={"/crochique"}
+            />
         </div>
     );
 }

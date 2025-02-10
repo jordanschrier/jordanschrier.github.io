@@ -1,4 +1,5 @@
 import images from "../images";
+import More from "../more";
 
 export default function Greenway(){
     return(
@@ -81,6 +82,14 @@ export default function Greenway(){
                 </div>
             </div>
             </div>
+            <More 
+                prevImg={images.advisa.thumbnail}
+                nextImg={images.clippies.thumbnail}
+                prevName={"Advisa"}
+                nextName={"Clippies"}
+                prevLink={"/advisa"}
+                nextLink={"/clippies"}
+            />
         </div>
     );
 }

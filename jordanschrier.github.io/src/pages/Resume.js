@@ -35,7 +35,7 @@ export default function Resume(){
                             with evolving campaigns and branding under pharmaceutical regulations
                         </li>
                         <li>
-                            Authored and monitored organic and paid social content tailored to the CX funnel
+                            Analyze and modify pages in Drupal CMS sites for accessibility and SEO improvements
                         </li>
                     </ul>
                 </div>
@@ -86,12 +86,10 @@ export default function Resume(){
                 <div className="col">
                     <ul className="desc">
                         <li>
-                            Conduct interviews for first-generation e-board members and advise incoming marketing 
-                            director on brand and social media direction
+                            Oversee the First-Year Representative Program, interview first-generation e-board members, support initiatives like the Calculator Lending Library, and manage representatives through regular meetings
                         </li>
                         <li>
-                            Serve as the primary liaison with organizations and external partners, fostering strong 
-                            relationships and effective communication
+                            Serve as the primary liaison with external partners, strengthening communication
                         </li>
                     </ul>
                 </div>
@@ -105,6 +103,7 @@ export default function Resume(){
                         <span>Augmented Reality (AR)</span>
                         <span>Responsive Design</span>
                         <span>Agile Development</span>
+                        <span>WCAG Guidelines</span>
                         <span>HTML/CSS</span>
                         <span>Javascript</span>
                         <span>Typescript</span>

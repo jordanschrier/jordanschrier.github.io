@@ -35,6 +35,6 @@ root.render(
       <Route path="about" element={<About />} />
       <Route path="*" element={<PageNotFound />} />
     </Routes>
-    {<footer>Copyright &copy; 2024 Jordan Schrier</footer>}
+    {<footer>Copyright &copy; 2025 Jordan Schrier</footer>}
   </HashRouter>
 );
