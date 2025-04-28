@@ -27,15 +27,15 @@ export default function Resume(){
                     <ul className="desc">
                         <li>
                             Lead end-to-end development of US digital team's internal programmatic creative,
-                            from content creation to PRC approval and agency handoff, improving efficiency, 
-                            reducing costs, and elevating design standards
+                            driving omnichannel strategy and directing traffic to relevant Optune Gio webpages.
                         </li>
                         <li>
-                            Implement vector illustration, generative AI, and interactivity to align creative
-                            with evolving campaigns and branding under pharmaceutical regulations
+                            Optimize patient and HCP site navigation to enhance user experience, collaborating
+                            cross-functionally to build pages in Drupal CMS with a focus on accessibility and SEO.
                         </li>
                         <li>
-                            Analyze and modify pages in Drupal CMS sites for accessibility and SEO improvements
+                            Strategize paid and organic social media campaigns, contributing to messaging, content
+                            creation, and comment moderation.
                         </li>
                     </ul>
                 </div>
@@ -110,7 +110,6 @@ export default function Resume(){
                         <span>Java</span>
                         <span>SQL</span>
                         <span>REST</span>
-                        <span>React</span>
                         <span>Bootstrap</span>
                         <span>Git</span>
                         <span>Jira</span>

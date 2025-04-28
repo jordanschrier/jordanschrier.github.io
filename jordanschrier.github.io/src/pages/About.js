@@ -8,15 +8,11 @@ export default function About(){
                 <div className="col-md-7">
                     <h1>Hi, I'm Jordan</h1>
                     <p className="desc">
-                        I'm a designer and developer focused on enhancing engagement in high-impact areas with bold, accessible design.
+                        I'm a designer and developer strengthening high impact campaigns in the healthcare and pharmaceutical industries
+                        through bold, accessible design.
                         As a senior double majoring in Design and Computer Science with a
                         cognitive science minor, I approach the design process holistically, considering implementation
                         and accessibility constraints.
-                    </p>
-                    <p className="desc">
-                        With a background in marketing, web development, and user experience, I'm always trying new
-                        tools to make creative projects stand out&mdash;most recently, augmented reality, 3D modeling/rendering, 
-                        and generative AI.
                     </p>
                     <form id="fs-frm" name="contact" acceptCharset="utf-8" action="https://formspree.io/f/xbjnbbnw" method="post">
                         <fieldset id="fs-frm-inputs">

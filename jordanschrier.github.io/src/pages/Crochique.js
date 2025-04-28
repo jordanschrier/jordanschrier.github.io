@@ -66,7 +66,7 @@ export default function Crochique() {
                     crochet blogs, but bolder and modernized.
                 </p>
             </div>
-            <div className="row">
+            <div className="row mb-4">
                 <div className="col">
                     <img loading="lazy" src={images.crochique.styleTile} className="work-image img-fluid" alt="Crochique style tile"></img>
                 </div>
